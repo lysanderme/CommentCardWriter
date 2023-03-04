@@ -20,7 +20,6 @@ struct CommentItem: View {
                 HStack {
                     Text("Enjoyment:")
                     Slider(value: $subjectAndMaster.enjoyment, in: 0 ... 10, onEditingChanged: { _ in
-                        print("editing")
                     })
                 }
                 HStack {
