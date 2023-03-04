@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let subjectsAndMasters: [Subject] = [Subject(master: "DPC", code: "CComX-1", subject: "Computer Science"), Subject(master: "MC", code: "CComX-1", subject: "Computer Science"), Subject(master: "BJH", code: "CMdpW-2", subject: "Pure Maths"), Subject(master: "RSO-J", code: "CMdaY-3", subject: "Applied Maths"), Subject(master: "IH", code: "CLatV-1", subject: "Latin Lang."), Subject(master: "KMA", code: "CLatV-1", subject: "Latin Lit.")]
+    let subjectsAndMasters: [Subject] = [Subject(master: "DPC", code: "CComX-1", subject: "Computer Science"), Subject(master: "MC", code: "CComX-1", subject: "Computer Science"), Subject(master: "BJH", code: "CMdpW-2", subject: "Pure Maths"), Subject(master: "RSO-J", code: "CMdaY-3", subject: "Applied Maths"), Subject(master: "IH", code: "CLatV-1", subject: "Latin Language"), Subject(master: "KMA", code: "CLatV-1", subject: "Latin Literature")]
     var body: some View {
         Form {
             CommentItem(subjectAndMaster: subjectsAndMasters[0])
